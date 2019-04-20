@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastic</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h1>World Class Cities</h1>
+            </div>
+            <div class="col-6">
+                <img src="http://www.clker.com/cliparts/9/5/7/0/1297286085795787133world-globe-md.png" alt="globe" id="globe">
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-6">
+                <div id="buttons"></div>
+                <div class="gifs"></div>
+            </div>
+            <div class="col-6">
+                <form id="city-form">
+                        <div class="form-group">
+                            <label for="city-input">Add your favourite city here!</label>
+                            <input type="text" class="form-control" id="city-input" aria-describedby="city" placeholder="Enter city">
+                        </div>
+                        <div class="form-group">
+                            <input id="add-city" type="submit" class="btn btn-primary" value="Show me more!">
+                        </div>
+                </form>
+            </div>
+        </div>
+
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>
