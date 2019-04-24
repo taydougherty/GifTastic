@@ -51,7 +51,6 @@ function cityInfo() {
 
             gifImage.addClass("images");
             gifImage.attr("src", results[i].images.fixed_height.url);
-            gifImage.html("<a href=" + results[i].images.fixed_height_still.url + "download></a>");
             gifImage.attr("data-state = still");
             gifImage.attr("data-still", results[i].images.fixed_height_still.url);
             gifImage.attr("data-animate", results[i].images.fixed_height.url)
